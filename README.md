@@ -2,7 +2,7 @@
 ### Welcome to Jobs Quizzes
 
 this project done by collaborating with my Team
-  Ms. Farah
++ Ms. Farah
 + Mr. Amro
 + Mr. Abdulrahman
 + Ms. Wesam

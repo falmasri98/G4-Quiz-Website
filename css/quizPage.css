@@ -1,11 +1,4 @@
-/* :root {
-    --line-border-fill: #07B38C;
-    --line-border-empty: #e0e0e0;
-  }
-  
-  * {
-    box-sizing: border-box;
-  } */
+
   
   body {
    
@@ -54,8 +47,6 @@
 
   }
   .timercon{
-    position: sticky;
-    top: 0px;
     padding-left: 5rem;
     padding-right: 5rem;
     border-radius: 2rem;
@@ -105,6 +96,7 @@
     padding-bottom: 1rem;
     font-family: "Muli", sans-serif; 
     font-size:large;
+    border :3px #d1d1d1 solid
     
   }
   .labelstyle:hover{
@@ -151,8 +143,10 @@ form input[type='button']{
   }
 
   #Errormessage{
-    color: rgb(207, 68, 68);
+    color: rgb(250, 250, 250);
+    background-color: rgba(230, 99, 99, 0.733);
     visibility: hidden;
+
   }
 
   @media (min-width: 500px) {
@@ -188,6 +182,13 @@ form input[type='button']{
 transform:scale(0.6);
 position: static;
     }
+
+    .anscontainer{
+      min-width: 20rem;
+  }
+  .labelstyle{
+      min-width: 22rem;
+  }
 
   }
 
